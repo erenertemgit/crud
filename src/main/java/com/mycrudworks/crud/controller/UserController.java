@@ -48,8 +48,8 @@ public class UserController {
 
         }
         @DeleteMapping("/{userId}")
-    public void deleteOneUser(@PathVariable Long userId){
-        userRepository.deleteById(userId);
+        public void deleteOneUser(@PathVariable Long userId){
+          userRepository.deleteById(userId);
         }
 
 
